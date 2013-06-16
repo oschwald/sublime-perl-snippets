@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+for my \$${1:var} (${2:vars}) {
+    ${3}
+}
+]]></content>
+    <description>for (each)</description>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

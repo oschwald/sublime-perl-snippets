@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+package ${1};
+
+use v5.16;
+
+use strict;
+use warnings;
+use namespace::autoclean;
+
+use Moose;
+use MooseX::StrictConstructor;
+
+${2}
+
+__PACKAGE__->meta()->make_immutable();
+
+1;
+]]></content>
+    <tabTrigger>package</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Moose Class</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+open my \$${1:var}, '${2:<}:encoding(${3:UTF-8})', '${4:filename}';
+]]></content>
+    <description>open with encoding</description>
+    <tabTrigger>open</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+open my \$${1:var}, '${2:<}', '${3:filename}';
+]]></content>
+    <description>open</description>
+    <tabTrigger>open</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

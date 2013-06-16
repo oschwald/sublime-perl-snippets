@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+has ${1:_name} => (
+    is       => 'ro',
+    isa      => ${2:Str},
+    lazy     => 1,
+    builder  => '_build_${3:name}',
+);
+]]></content>
+    <description>Moose Attribute</description>
+    <tabTrigger>has</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

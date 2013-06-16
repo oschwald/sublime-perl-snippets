@@ -1,4 +1,4 @@
 sublime-perl-snippets
 =====================
 
-Sublime snippets for Perl
+A few Sublime Perl snippets that I use.
