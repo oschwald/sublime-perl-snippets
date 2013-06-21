@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+has ${1:_name} => (
+    traits  => ['Array'],
+    is      => 'ro',
+    isa     => 'ArrayRef[${2:Str}]',
+    default => sub { ${2:[]} },
+    handles => {
+        _all_names    => 'elements',
+        _add_name     => 'push',
+        _map_names    => 'map',
+        _filter_names => 'grep',
+        _find_name    => 'first',
+        _get_name     => 'get',
+        _join_names   => 'join',
+        _count_names  => 'count',
+        _has_names    => 'count',
+        _has_no_names => 'is_empty',
+        _sorted_names => 'sort',
+    },
+);
+]]></content>
+    <description>Moose Array Attribute</description>
+    <tabTrigger>hasa</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

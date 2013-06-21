@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+has ${1:_name} => (
+    traits    => ['Hash'],
+    is        => 'ro',
+    isa       => 'HashRef[${2:Str}]',
+    default   => sub { ${3:\{\}} },
+    handles   => {
+        _set_name     => 'set',
+        _get_name     => 'get',
+        _has_name     => 'exists',
+        _has_no_names => 'is_empty',
+        _num_names    => 'count',
+        _delete_name  => 'delete',
+        _name_pairs   => 'kv',
+    },
+);
+]]></content>
+    <description>Moose Hash Attribute</description>
+    <tabTrigger>hash</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
