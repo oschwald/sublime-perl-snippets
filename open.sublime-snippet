@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-open my \$${1:var}, '${2:<}', '${3:filename}';
+open my \$${1:fh}, '${2:<}', '${3:filename}';
 ]]></content>
     <description>open</description>
     <tabTrigger>open</tabTrigger>

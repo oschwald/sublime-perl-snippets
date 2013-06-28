@@ -4,10 +4,10 @@ has ${1:_name} => (
     is       => 'ro',
     isa      => ${2:Str},
     lazy     => 1,
-    builder  => '_build_${3:name}',
+    default  => ${3:sub \{\}}',
 );
 ]]></content>
     <description>Moose Default Attribute</description>
-    <tabTrigger>hasb</tabTrigger>
+    <tabTrigger>hasd</tabTrigger>
     <scope>source.perl</scope>
 </snippet>
