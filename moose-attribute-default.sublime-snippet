@@ -4,7 +4,7 @@ has ${1:_name} => (
     is       => 'ro',
     isa      => ${2:Str},
     lazy     => 1,
-    default  => ${3:sub \{\}}',
+    default  => ${3:sub \{\}},
 );
 ]]></content>
     <description>Moose Default Attribute</description>

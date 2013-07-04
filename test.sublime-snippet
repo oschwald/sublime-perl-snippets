@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+use v5.16;
+
+use strict;
+use warnings;
+
+use Test::More;
+
+${1}
+
+done_testing();
+]]></content>
+    <description>Perl Test</description>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>
