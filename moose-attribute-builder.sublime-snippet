@@ -4,7 +4,7 @@ has ${1:_name} => (
     is       => 'ro',
     isa      => ${2:Str},
     lazy     => 1,
-    builder  => '_build_${3:name}',
+    builder  => '_build_${1/^_//:name}',
 );
 ]]></content>
     <description>Moose Builder Attribute</description>
