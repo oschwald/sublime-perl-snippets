@@ -1,11 +1,8 @@
 <snippet>
     <content><![CDATA[
-package ${1};
+package MM::${1};
 
-use v5.16;
-
-use strict;
-use warnings;
+use mm::perl;
 use namespace::autoclean;
 
 use Moose;

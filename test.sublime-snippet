@@ -1,9 +1,6 @@
 <snippet>
     <content><![CDATA[
-use v5.16;
-
-use strict;
-use warnings;
+use mm::perl;
 
 use Test::More;
 
