@@ -2,11 +2,7 @@
     <content><![CDATA[
 package MM::${1};
 
-use mm::perl;
-use namespace::autoclean;
-
-use Moose;
-use MooseX::StrictConstructor;
+use MM::Moose;
 
 ${2}
 
