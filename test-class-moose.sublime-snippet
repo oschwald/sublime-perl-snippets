@@ -2,11 +2,11 @@
     <content><![CDATA[
 package TestFor::MM::${1};
 
-use mm::perl;
-
-use Test::Class::Moose;
+use MM::Test::Class::Moose;
 
 ${2}
+
+__PACKAGE__->meta->make_immutable;
 
 1;
 ]]></content>
